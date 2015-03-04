@@ -1,0 +1,1 @@
+[![Code Climate](https://codeclimate.com/github/Remchi/rpgclub/badges/gpa.svg)](https://codeclimate.com/github/Remchi/rpgclub) [![Test Coverage](https://codeclimate.com/github/Remchi/rpgclub/badges/coverage.svg)](https://codeclimate.com/github/Remchi/rpgclub)

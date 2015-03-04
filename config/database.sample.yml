@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: rpgclub_development
+
+test:
+  <<: *default
+  database: rpgclub_test
+
+production:
+  <<: *default
+  database: rpgclub_production
+  username: rpgclub
+  password: <%= ENV['RPGCLUB_DATABASE_PASSWORD'] %>
