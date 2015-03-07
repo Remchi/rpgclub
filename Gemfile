@@ -13,6 +13,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'slim'
 
+gem 'devise'
+
+gem 'rails-i18n', '~> 4.0.0'
+
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
