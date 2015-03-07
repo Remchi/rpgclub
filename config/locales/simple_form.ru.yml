@@ -13,9 +13,12 @@ ru:
         password: 'Пароль'
         email: 'Email'
         password_confirmation: 'Пароль (еще раз)'
+        login: 'Email или Имя пользователя'
+        remember_me: 'Запомнить?'
     placeholders:
       defaults:
         username: 'Ваше имя пользователя'
         email: 'Ваш адрес электронной почты'
         password: 'Ваш пароль'
         password_confirmation: 'Введите пароль еще раз'
+        login: 'Email или Имя пользователя'

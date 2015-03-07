@@ -6,3 +6,6 @@ ru:
       sign_out_link: 'Выйти'
       form_title: 'Регистрация'
       form_submit: 'Зарегистрироваться'
+    auth:
+      form_title: 'Войти'
+      form_submit: 'Войти'
