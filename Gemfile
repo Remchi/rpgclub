@@ -17,6 +17,7 @@ gem 'devise'
 gem 'simple_form'
 
 gem 'rails-i18n', '~> 4.0.0'
+gem 'devise-i18n'
 
 group :development, :test do
   gem 'byebug'
