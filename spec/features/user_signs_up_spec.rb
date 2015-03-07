@@ -22,8 +22,8 @@ feature 'User signs up' do
     visit '/'
     find('.sign-up-link').click
     find('.sign-up-submit').click
-    
-    expect(page).to have_css('.error')
+
+    expect(page).to have_css('.has-error')
     expect(current_path).to eq('/users')
   end
 end

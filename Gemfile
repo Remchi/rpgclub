@@ -14,6 +14,7 @@ gem 'bootstrap-sass'
 gem 'slim'
 
 gem 'devise'
+gem 'simple_form'
 
 gem 'rails-i18n', '~> 4.0.0'
 
@@ -29,5 +30,6 @@ end
 group :test do
   gem 'capybara'
   gem 'database_cleaner'
+  gem 'shoulda-matchers', require: false
   gem "codeclimate-test-reporter", require: nil
 end

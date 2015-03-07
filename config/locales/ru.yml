@@ -1,9 +1,5 @@
 ru:
   user:
-    username: 'Имя пользователя'
-    password: 'Пароль'
-    email: 'Email'
-    password_confirmation: 'Пароль (ещё раз)'
     registration:
       sign_up_link: 'Зарегистрироваться'
       sign_in_link: 'Войти'
