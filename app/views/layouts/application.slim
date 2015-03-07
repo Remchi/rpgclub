@@ -26,4 +26,10 @@ html
             span aria-hidden='true' &times;
           = flash[:notice]
 
+      - if flash[:alert]
+        .alert.alert-danger.alert-dismissible role='alert'
+          button.close data-dismiss='alert' aria-label='Close'
+            span aria-hidden='true' &times;
+          = flash[:alert]
+
       == yield
