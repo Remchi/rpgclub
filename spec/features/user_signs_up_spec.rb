@@ -16,6 +16,7 @@ feature 'User signs up' do
     expect(page).to have_css('.sign-out-link')
     expect(page).not_to have_css('.sign-up-link')
     expect(User.last.username).to eq('username')
+    expect(current_path).to eq('/profile')
   end
 
   scenario 'user tries to sign up with invalid data' do
