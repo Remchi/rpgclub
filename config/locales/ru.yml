@@ -1,0 +1,8 @@
+ru:
+  user:
+    registration:
+      sign_up_link: 'Зарегистрироваться'
+      sign_in_link: 'Войти'
+      sign_out_link: 'Выйти'
+      form_title: 'Регистрация'
+      form_submit: 'Зарегистрироваться'

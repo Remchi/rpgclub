@@ -5,4 +5,25 @@ html
     = stylesheet_link_tag 'application', media: 'all'
     = javascript_include_tag 'application'
   body
-    == yield
+
+    .container-fluid
+
+      nav.navbar.navbar-default
+        .container-fluid
+          .navbar-header
+            = link_to 'RPG Club', root_url, class: 'navbar-brand'
+          ul.nav.navbar-nav.navbar-right
+            - if user_signed_in?
+              li= link_to t('user.registration.sign_out_link'), destroy_user_session_path, class: 'sign-out-link'
+            - unless user_signed_in?
+              li= link_to t('user.registration.sign_in_link'), new_user_session_path, class: 'sign-in-link'
+              li= link_to t('user.registration.sign_up_link'), new_user_registration_path, class: 'sign-up-link'
+
+
+      - if flash[:notice]
+        .alert.alert-success.alert-dismissible role='alert'
+          button.close data-dismiss='alert' aria-label='Close'
+            span aria-hidden='true' &times;
+          = flash[:notice]
+
+      == yield

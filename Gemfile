@@ -13,6 +13,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'slim'
 
+gem 'devise'
+gem 'simple_form'
+
+gem 'rails-i18n', '~> 4.0.0'
+gem 'devise-i18n'
+
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
@@ -25,5 +31,6 @@ end
 group :test do
   gem 'capybara'
   gem 'database_cleaner'
+  gem 'shoulda-matchers', require: false
   gem "codeclimate-test-reporter", require: nil
 end
